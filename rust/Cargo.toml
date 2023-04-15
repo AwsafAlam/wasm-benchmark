@@ -1,0 +1,13 @@
+[package]
+name = "vanilla-rust-wasm"
+version = "0.1.0"
+authors = ["Awsaf Alam <awsafalam@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# new material
+[lib]
+crate-type = ["cdylib"]

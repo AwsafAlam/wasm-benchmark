@@ -1,7 +1,7 @@
-func multiplyDouble(a, b float64, n int) float64 {
-	c := 1.0
-	for i := 0; i < n; i++ {
-		c = c * a * b
-	}
-	return c
+fn multiply_double(a: f64, b: f64, n: i32) -> f64 {
+    let mut c = 1.0;
+    for _ in 0..n {
+        c = c * a * b;
+    }
+    return c;
 }
